@@ -1,0 +1,94 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(167, 141, 141, 0.644);
+    height: 1.5em;
+    padding: 20px;
+}
+
+.hea a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.hea a:hover{
+    background-color: rgba(0, 0, 0, 0.215);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+header button{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: -5px;
+    border: 1px solid rgba(0, 0, 0, 0.385);
+    background-color: rgba(248, 248, 248, 0.587);
+}
+
+header button:hover{
+    background-color: rgba(0, 0, 0, 0.285);
+    padding: 7px;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+}
+
+
+main{
+    max-width: 800px;
+    margin: 3% auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;   
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 180px;
+    width: 20%;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+}
+
+li:hover{
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.431);
+    height: 195px;
+    width: 22%;
+}
+
+form{
+    margin: 5% 2%;
+}
+
+button{
+    background-color: rgba(17, 135, 220, 0.75);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    margin: 0 1%;
+    border: 1px solid rgba(0, 0, 0, 0.472);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(17, 135, 220, 0.957);
+}
