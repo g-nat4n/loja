@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+body{
+    background-color: rgba(132, 158, 251, 0.252);
+}
+
 header{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(167, 141, 141, 0.644);
+    background-color: rgba(17, 135, 220, 0.75);
     height: 1.5em;
     padding: 20px;
 }
@@ -15,6 +19,7 @@ header{
     text-decoration: none;
     color: white;
     padding: 15px;
+    width: 20%;
 }
 
 .hea a:hover{
@@ -29,7 +34,7 @@ header button{
     width: 100px;
     margin-top: -5px;
     border: 1px solid rgba(0, 0, 0, 0.385);
-    background-color: rgba(248, 248, 248, 0.587);
+    background-color: rgb(67, 149, 249);
 }
 
 header button:hover{
@@ -43,15 +48,16 @@ header button:hover{
 }
 
 
-main{
-    max-width: 800px;
+.itensmain{
+    max-width: 1200px;
     margin: 3% auto;
     border: 1px solid black;
     border-radius: 10px;
     padding: 30px;   
+
 }
 
-ul{
+ ul{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -60,18 +66,19 @@ ul{
 li{
     border: 1px solid black;
     border-radius: 10px;
-    height: 180px;
-    width: 20%;
+    height: 320px;
+    width: 200px;
     text-decoration: none;
     list-style-type: none;
     padding: 15px;
     text-align: center;
+    background-color: white;
 }
 
 li:hover{
-    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.431);
-    height: 195px;
-    width: 22%;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.513);
+    height: 335px;
+    width: 205px;
 }
 
 form{
@@ -91,4 +98,296 @@ button{
 button:hover{
     cursor: pointer;
     background-color: rgba(17, 135, 220, 0.957);
+}
+
+.imagem{
+    height: 60%;
+    width: 80%;
+    margin-top: 1%;
+    border-bottom: 1px solid rgba(2, 2, 2, 0.294);
+   
+}
+
+.frete{
+    color: rgb(38, 143, 6);
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.texto{
+    margin-top: 2%;
+   height: 30%;
+   text-align: start;
+}
+
+.texto h4{
+    text-align: center;
+}
+
+.Vendedor{
+    color: rgba(0, 0, 0, 0.604);
+    margin: 1.5% 0;
+}
+
+.descricao{
+    font-size: 16px;
+    margin-top: 1%;
+}
+
+
+.caixaproduto{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.ihpone11{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 4% ;
+    width: 70%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    box-shadow: 0 8px 10px  rgba(0, 0, 0, 0.433);
+}
+
+
+
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.imgiphone img{
+    width: 500px;
+    height: 550px;
+    margin-top: 20%;
+}
+
+.imagens{
+    padding: 10px;
+    margin-top: 40%;
+    margin-right: 0;
+
+}
+.imagens img{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.imgiphone{
+    margin: 0;
+}
+
+.txtiphone h1{
+    text-align: start;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.txtiphone{
+    display: flex;
+
+}
+
+.compra{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    display: block;
+    margin: auto 20px ;
+    border-radius: 10px;
+    height: 90%;
+    width: 70%;
+}
+
+.des{ 
+    border-radius: 10px;
+    padding: 10px;
+    width: 440px;
+    margin-left: 0;
+    margin: 4%;
+}
+
+.compra h2{
+    margin-top: 90%;
+}
+
+.com{
+    width: 80%;
+    height: 7%;
+    margin-top: 5%;
+}
+
+.compra h1{
+    text-align: center;
+}
+
+.comp{
+    width: 80%;
+    height: 7%;
+    margin-top: 5%;
+    background-color: rgba(5, 93, 155, 0.986);
+}
+
+.verdes{
+    color: green;
+}
+
+.entrega{
+    text-decoration: none;
+    color:rgba(9, 102, 168, 0.986) ;
+    text-align: start;
+}
+
+.ver_loja{
+    margin-top: 30%;
+    text-align: start;
+    color: rgba(0, 0, 0, 0.534);
+    margin-left: 30px;
+}
+
+.des p{
+    margin: 10px;
+}
+
+
+#banner_main {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 5%;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.controles {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 50px;
+}
+
+
+.caixas{
+    display: flex;
+    margin: 2% 10%;
+}
+
+.caixa1{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    width: 30%;
+    height: 240px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.caixa1:hover{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    width: 31%;
+    height: 260px;
+    padding: 11px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.caixa2{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    width: 30%;
+    height: 240px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.caixa2:hover{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    width: 31%;
+    height: 260px;
+    padding: 11px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.caixa3{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    width: 30%;
+    height: 240px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.caixa3:hover{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    width: 31%;
+    height: 260px;
+    padding: 11px;
+    background-color: white;
+    box-shadow: 0 6px 6px  rgba(0, 0, 0, 0.438);
+}
+
+.informacoes{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+footer{
+    background-color: rgba(17, 135, 220, 0.75);
+    height: 200px;
+    padding: 15px;
+    margin: 0;
+    margin-top: 5%;
+    display: flex;
+}
+
+.footer1{
+    margin-top: 2%;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.footer2{
+    margin-top: 2%;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.footer3{
+    margin-top: 2%;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.texto{
+    margin: 5% 10%;
+    font-size: 20px;
 }
